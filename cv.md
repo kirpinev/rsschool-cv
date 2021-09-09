@@ -44,11 +44,15 @@
 - [HackerRank](https://hackerrank.com/ikirpinev)
 
 ### Work experience 👔
-| Job Position          | Company        | Work Period                |
-| --------------------- | -------------- | -------------------------- |
-| **Frontend Developer**     | **Beeline Russia**    | **26.01.2021 — until now** |
-| Frontend Developer   | Get Teacher | 01.05.2020 — 01.07.2020    |
-| Frontend Developer   | VTB     | 25.01.2020 — 01.04.2020    |
+- **Beeline** <br/>
+  *Frontend Developer* <br />
+  *26.01.2021 — until now*
+- **Get Teacher** <br />
+  *Frontend Developer* <br />
+  *01.05.2020 — 01.07.2020*
+- **VTB** <br />
+  *Intern* <br />
+  *25.01.2020 — 01.04.2020*
 
 ### Education 🎓
 - Bauman Moscow State Technical University (2016 - 2018)
