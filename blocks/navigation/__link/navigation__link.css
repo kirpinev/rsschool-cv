@@ -1,0 +1,9 @@
+.navigation__link {
+  font: normal bold 18px/21px "Source Sans Pro", sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}

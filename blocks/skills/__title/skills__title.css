@@ -1,0 +1,9 @@
+.skills__title {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .skills__title {
+    text-align: center;
+  }
+}

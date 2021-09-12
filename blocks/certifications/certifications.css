@@ -1,0 +1,9 @@
+@import url("__title/certifications__title.css");
+@import url("__wrapper/certifications__wrapper.css");
+@import url("__item/certifications__item.css");
+@import url("__item-title/certifications__item-title.css");
+@import url("__link/certifications__link.css");
+
+.certifications {
+  margin-bottom: 90px;
+}

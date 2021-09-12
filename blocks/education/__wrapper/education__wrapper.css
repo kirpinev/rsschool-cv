@@ -1,0 +1,13 @@
+.education__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .education__wrapper {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
