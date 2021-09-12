@@ -1,0 +1,10 @@
+.about__link {
+  margin-left: 5px;
+  margin-right: 5px;
+
+  text-decoration: none;
+}
+
+.about__link:hover {
+  text-decoration: underline;
+}

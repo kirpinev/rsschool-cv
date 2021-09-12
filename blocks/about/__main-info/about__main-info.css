@@ -1,0 +1,14 @@
+.about__main-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 70%;
+  margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+  .about__main-info {
+    margin-top: 30px;
+    align-items: center;
+  }
+}

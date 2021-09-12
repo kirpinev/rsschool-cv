@@ -1,0 +1,12 @@
+.experience-education {
+  display: flex;
+
+  margin-bottom: 90px;
+}
+
+@media (max-width: 768px) {
+  .experience-education {
+    flex-direction: column;
+    align-items: center;
+  }
+}

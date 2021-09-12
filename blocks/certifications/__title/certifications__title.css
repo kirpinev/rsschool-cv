@@ -1,0 +1,9 @@
+.certifications__title {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .certifications__title {
+    text-align: center;
+  }
+}

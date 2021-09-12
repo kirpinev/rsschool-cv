@@ -1,0 +1,11 @@
+.experience__company-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+@media (max-width: 768px) {
+  .experience__company-wrapper {
+    flex-direction: column;
+  }
+}
