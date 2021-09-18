@@ -1,0 +1,9 @@
+.code-mastery__title {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .code-mastery__title {
+    text-align: center;
+  }
+}
