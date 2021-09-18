@@ -1,3 +1,4 @@
+@import url("header/header.css");
 @import url("content-wrapper/content-wrapper.css");
 @import url("navigation/navigation.css");
 @import url("about/about.css");
@@ -12,3 +13,5 @@
 @import url("achievements/achievements.css");
 @import url("footer/footer.css");
 @import url("body-background/body-background.css");
+@import url("projects/projects.css");
+@import url("code-mastery/code-mastery.css");

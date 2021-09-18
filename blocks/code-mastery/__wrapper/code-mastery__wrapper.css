@@ -1,4 +1,4 @@
-.certifications__wrapper {
+.code-mastery__wrapper {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);
@@ -6,7 +6,7 @@
 }
 
 @media (max-width: 768px) {
-  .certifications__wrapper {
+  .code-mastery__wrapper {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 }

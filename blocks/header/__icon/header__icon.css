@@ -1,0 +1,8 @@
+@import url("_dark/header__icon_dark.css");
+@import url("_light/header__icon_light.css");
+
+.header__icon {
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
