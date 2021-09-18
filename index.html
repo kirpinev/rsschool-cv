@@ -23,24 +23,32 @@
   </head>
   <body class="body-background" id="top">
     <div class="content-wrapper">
-    <header>
-      <nav>
+    <header class="header">
+      <img class="header__icon header__icon_light" id="light" src="./images/burger-light.svg" alt="Burger icon" width="30" height="30">
+      <img class="header__icon header__icon_dark" id="dark" src="./images/burger-dark.svg" alt="Burger icon" width="30" height="30">
+      <nav class="navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link" href="#resume">about</a>
+            <a class="navigation__link" href="#about">about</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#experience">experience</a>
           </li>
           <li class="navigation__item">
+            <a class="navigation__link" href="#education">education</a>
+          </li>
+          <li class="navigation__item">
             <a class="navigation__link" href="#skills">skills</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#projects">projects</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="about" id="resume">
+      <section class="about" id="about">
         <div class="about__main-info">
           <img
             class="about__photo"
@@ -122,7 +130,7 @@ const Igor = {
           </div>
         </div>
 
-        <div class="education">
+        <div class="education" id="education">
           <h2 class="education__title subtitle">Education</h2>
           <div class="education__wrapper">
           <div class="education__school">
@@ -206,7 +214,7 @@ const Igor = {
         </div>
       </section>
 
-      <section class="projects">
+      <section class="projects" id="projects">
         <h2 class="projects__title subtitle">Frontend Projects</h2>
         <div class="projects__wrapper">
           <div class="projects__item">
@@ -349,5 +357,6 @@ const Igor = {
     <script>hljs.highlightAll();</script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="./utils/smooth-scroll.js"></script>
+    <script src="./components/burger.js"></script>
   </body>
 </html>
