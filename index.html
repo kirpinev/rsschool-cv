@@ -18,8 +18,11 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </head>
-
   <body class="body-background">
     <div class="content-wrapper">
     <header>
@@ -50,7 +53,8 @@
             Igor Kirpinev 27 y.o. Frontend Developer
           </h1>
           <pre class="about__code text">
-            <code>
+            <code  class="language-js" style="background: none;
+                                              padding: 0;">
 const Igor = {
   is: 'a passionate, creative and perceptive engineer',
   fascinates: 'anything and everything about IT',
