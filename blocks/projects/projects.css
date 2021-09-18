@@ -1,0 +1,15 @@
+@import url("__title/projects__title.css");
+@import url("__wrapper/projects__wrapper.css");
+@import url("__item/projects__item.css");
+@import url("__item-title/projects__item-title.css");
+@import url("__figure/projects__figure.css");
+@import url("__figcaption/projects__figcaption.css");
+@import url("__item-text/projects__item-text.css");
+@import url("__item-image/projects__item-image.css");
+@import url("__link/projects__link.css");
+@import url("__list/projects__list.css");
+@import url("__list-item/projects__list-item.css");
+
+.projects {
+  margin-bottom: 90px;
+}

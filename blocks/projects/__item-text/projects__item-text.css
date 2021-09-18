@@ -1,0 +1,7 @@
+.projects__item-text {
+  margin: 0;
+}
+
+.projects__item-text:nth-of-type(1) {
+  margin-bottom: 8px;
+}
