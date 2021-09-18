@@ -20,10 +20,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="stylesheet"
           href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
   </head>
-  <body class="body-background">
+  <body class="body-background" id="top">
     <div class="content-wrapper">
     <header>
       <nav>
@@ -166,19 +164,44 @@ const Igor = {
         <div class="skills__wrapper">
           <div class="skills__item">
             <h3 class="skills__item-title caption">Currently working with</h3>
-            <p class="skills__item-text text">JavaScript, TypeScript, HTML5, CSS3, React.js, MongoDB, Postgresql, git, GitHub, GitLab, command line, WebStorm, Heroku</p>
+            <ul class="skills__list">
+              <li class="skills__item-text text">JavaScript</li>
+              <li class="skills__item-text text">TypeScript</li>
+              <li class="skills__item-text text">HTML5</li>
+              <li class="skills__item-text text">CSS3</li>
+              <li class="skills__item-text text">React.js</li>
+              <li class="skills__item-text text">MongoDB</li>
+              <li class="skills__item-text text">Postgresql</li>
+              <li class="skills__item-text text">git</li>
+              <li class="skills__item-text text">GitHub</li>
+              <li class="skills__item-text text">GitLab</li>
+              <li class="skills__item-text text">command line</li>
+              <li class="skills__item-text text">WebStorm</li>
+              <li class="skills__item-text text">Heroku</li>
+            </ul>
           </div>
           <div class="skills__item">
             <h3 class="skills__item-title caption">Learning</h3>
-            <p class="skills__item-text text">Nest.js, Next.js</p>
+            <ul class="skills__list">
+              <li class="skills__item-text text">Nest.js</li>
+              <li class="skills__item-text text">Next.js</li>
+            </ul>
           </div>
           <div class="skills__item">
             <h3 class="skills__item-title caption">Previously worked with</h3>
-            <p class="skills__item-text text">Python, VS Code, Atom, Docker</p>
+            <ul class="skills__list">
+              <li class="skills__item-text text">Python</li>
+              <li class="skills__item-text text">VS Code</li>
+              <li class="skills__item-text text">Atom</li>
+              <li class="skills__item-text text">Docker</li>
+            </ul>
           </div>
           <div class="skills__item">
             <h3 class="skills__item-title caption">Human languages</h3>
-            <p class="skills__item-text text">Russian - Native, English&nbsp;-&nbsp;B1/B2</p>
+            <ul class="skills__list">
+              <li class="skills__item-text text">Russian - Native</li>
+              <li class="skills__item-text text">English&nbsp;-&nbsp;B1/B2</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -321,5 +344,10 @@ const Igor = {
       <a class="text" href="#top">back to top</a>
     </footer>
     </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="./utils/smooth-scroll.js"></script>
   </body>
 </html>
