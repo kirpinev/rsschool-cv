@@ -1,0 +1,21 @@
+@import url("__main-info/about__main-info.css");
+@import url("__photo/about__photo.css");
+@import url("__title/about__title.css");
+@import url("__code/about__code.css");
+@import url("__list/about__list.css");
+@import url("__link/about__link.css");
+@import url("__item/about__item.css");
+@import url("__contacts/about__contacts.css");
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 87px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,15 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="author" content="Igor Kirpinev">
-        <meta name="description" content="My curriculum vitae">
-        <title>Igor Kirpinev's CV</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <h1>Hello</h1>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Igor Kirpinev">
+  <meta name="description" content="My curriculum vitae">
+  <title>Igor Kirpinev's CV</title>
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./blocks/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+</head>
+<body class="body-background" id="top">
+<div class="content-wrapper">
+  <header class="header">
+    <img class="header__icon header__icon_light" id="light" src="./images/burger-light.svg" alt="Burger icon" width="30"
+         height="30">
+    <img class="header__icon header__icon_dark" id="dark" src="./images/burger-dark.svg" alt="Burger icon" width="30"
+         height="30">
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#about">about</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#experience">experience</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#education">education</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#skills">skills</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#projects">projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about" id="about">
+      <div class="about__main-info">
+        <img
+          class="about__photo"
+          src="./images/igor.jpg"
+          alt="Igor Kirpinev's photo"
+        >
+        <h1 class="about__title">
+          Igor Kirpinev 29 y.o. Frontend Developer
+        </h1>
+        <pre class="about__code text">
+            <code class="language-js" style="background: none;
+                                              padding: 0;">
+const Igor = {
+  is: 'a passionate, creative and perceptive engineer',
+  fascinates: 'anything and everything about IT',
+  interests: 'range from Frontend to Backend development',
+  always: 'open to new ideas and opportunities',
+};
+            </code>
+          </pre>
+      </div>
+      <div class="about__contacts">
+        <ul class="about__list">
+          <li class="about__item text">
+            kirpinev@yahoo.com
+          </li>
+          <li class="about__item">
+            <a class="about__link text" href="https://www.linkedin.com/in/kirpinevigor/" target="_blank">
+              <img src="./images/linkedin.svg" alt="LinkedIn logo" width="25" height="25">
+            </a>
+            <a class="about__link text" href="https://t.me/igrkrpnv" target="_blank">
+              <img src="./images/telegram.svg" alt="Telegram Logo" width="25" height="25">
+            </a>
+            <a class="about__link text" href="https://discordapp.com/users/kirpinev" target="_blank">
+              <img src="./images/discord.png" alt="Discord Logo" width="25" height="25">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="experience-education" id="experience">
+      <div class="experience">
+        <h2 class="experience__title subtitle">Work Experience</h2>
+        <div class="experience__job">
+          <p class="experience__date">03.12.2021 — until now</p>
+          <div class="experience__spec-wrapper">
+            <h3 class="caption experience__spec">Frontend Developer</h3>
+            <img src="./images/svg3.svg" alt="Иконки" width="25" height="17">
+          </div>
+          <div class="experience__company-wrapper">
+            <img class="experience__company-logo" src="./images/sber.png" alt="Логотип Beeline" width="35"
+                 height="17">
+            <p class="experience__company-name caption">Sber</p>
+            <p class="experience__about-company text">The largest digital platform, tech brand</p>
+          </div>
+          <p class="experience__responsibilities text">
+            Working in an agile team on the implementation of a company's business project.
+            Using React, Redux, TS, Less, Cypress, etc. Actively involved in the implementation of new features.</p>
+        </div>
+        <div class="experience__job">
+          <p class="experience__date">26.01.2021 — 02.12.2021</p>
+          <div class="experience__spec-wrapper">
+            <h3 class="caption experience__spec">Frontend Developer</h3>
+            <img src="./images/svg1.svg" alt="Иконки" width="35" height="17">
+          </div>
+          <div class="experience__company-wrapper">
+            <img class="experience__company-logo" src="./images/beeline.png" alt="Логотип Beeline" width="35"
+                 height="17">
+            <p class="experience__company-name caption">Beeline Russia</p>
+            <p class="experience__about-company text">Telecommunications operator</p>
+          </div>
+          <p class="experience__responsibilities text">Creating from scratch a web-platform to automate the work of a
+            direct sales channel (agents, supervisors, trainers, recruiters) in order to create a transparent reporting
+            system to improve the manageability and efficiency of employee. Analyzing requirements, looking for
+            technological solutions.</p>
+        </div>
+        <div class="experience__job">
+          <p class="experience__date">01.05.2020 — 01.07.2020</p>
+          <div class="experience__spec-wrapper">
+            <h3 class="caption experience__spec">Frontend Developer</h3>
+            <img src="./images/svg2.svg" alt="Иконки" width="26" height="17">
+          </div>
+          <div class="experience__company-wrapper">
+            <p class="experience__company-name caption">Get Teacher</p>
+            <p class="experience__about-company text">EdTech startup</p>
+          </div>
+          <p class="experience__responsibilities text">Developed components for an educational portal. Used React.js,
+            styled-components, css modules, Next.js, TS.</p>
+        </div>
+        <div class="experience__job">
+          <p class="experience__date">25.01.2020 — 01.04.2020</p>
+          <div class="experience__spec-wrapper">
+            <h3 class="caption experience__spec">Frontend Developer (Intern)</h3>
+            <img src="./images/svg3.svg" alt="Иконки" width="25" height="17">
+          </div>
+          <div class="experience__company-wrapper">
+            <img class="experience__company-logo" src="./images/vtb.jpg" alt="Логотип VTB">
+            <p class="experience__company-name caption">VTB</p>
+            <p class="experience__about-company text">One of the leading universal banks of Russia</p>
+          </div>
+          <p class="experience__responsibilities text">Learned React. Fixed bugs in internal projects.</p>
+        </div>
+      </div>
+
+      <div class="education" id="education">
+        <h2 class="education__title subtitle">Education</h2>
+        <div class="education__wrapper">
+          <div class="education__school">
+            <img src="./images/svg7.svg" alt="Иконки" width="36" height="36">
+            <h3 class="education__school-name caption">Yandex.Praktikum</h3>
+            <p class="education__spec text">Java Backend Developer</p>
+            <p class="education__date text">2022 - 2023</p>
+          </div>
+          <div class="education__school">
+            <img src="./images/svg8.svg" alt="Иконки" width="36" height="36">
+            <h3 class="education__school-name caption">Yandex.Praktikum</h3>
+            <p class="education__spec text">React Developer</p>
+            <p class="education__date text">2022</p>
+          </div>
+          <div class="education__school">
+            <img src="./images/svg9.svg" alt="Иконки" width="36" height="36">
+            <h3 class="education__school-name caption">Yandex.Praktikum</h3>
+            <p class="education__spec text">Middle Frontend Developer</p>
+            <p class="education__date text">2020 - 2021</p>
+          </div>
+          <div class="education__school">
+            <img src="./images/svg5.svg" alt="Иконки" width="36" height="36">
+            <h3 class="education__school-name caption">Yandex.Praktikum</h3>
+            <p class="education__spec text">Junior Frontend Developer</p>
+            <p class="education__date text">2019 - 2020</p>
+          </div>
+          <div class="education__school">
+            <img src="./images/svg6.svg" alt="Иконки" width="36" height="36">
+            <h3 class="education__school-name caption">Bauman Moscow State Technical University</h3>
+            <p class="education__spec text">Retraining as an engineer of automation systems</p>
+            <p class="education__date text">2016 - 2018</p>
+          </div>
+          <div class="education__school">
+            <img src="./images/svg7.svg" alt="Иконки" width="36" height="36">
+            <h3 class="education__school-name caption">Pyatigorsk State University</h3>
+            <p class="education__spec text">Master's degree in Linguistics</p>
+            <p class="education__date text">2014 - 2016</p>
+          </div>
+          <div class="education__school">
+            <img src="./images/svg8.svg" alt="Иконки" width="36" height="36">
+            <h3 class="education__school-name caption">Pyatigorsk State University</h3>
+            <p class="education__spec text">Bachelor's degree in Linguistics</p>
+            <p class="education__date text">2010 - 2014</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skills__title subtitle">Skills</h2>
+      <div class="skills__wrapper">
+        <div class="skills__item">
+          <h3 class="skills__item-title caption">Currently working with</h3>
+          <ul class="skills__list">
+            <li class="skills__item-text text">JavaScript</li>
+            <li class="skills__item-text text">TypeScript</li>
+            <li class="skills__item-text text">HTML5</li>
+            <li class="skills__item-text text">CSS3</li>
+            <li class="skills__item-text text">React.js</li>
+            <li class="skills__item-text text">MongoDB</li>
+            <li class="skills__item-text text">Postgresql</li>
+            <li class="skills__item-text text">git</li>
+            <li class="skills__item-text text">GitHub</li>
+            <li class="skills__item-text text">GitLab</li>
+            <li class="skills__item-text text">command line</li>
+            <li class="skills__item-text text">WebStorm</li>
+            <li class="skills__item-text text">Heroku</li>
+            <li class="skills__item-text text">Java Core</li>
+            <li class="skills__item-text text">Spring Boot</li>
+            <li class="skills__item-text text">Postgresql</li>
+            <li class="skills__item-text text">Hibernate</li>
+            <li class="skills__item-text text">JUnit</li>
+          </ul>
+        </div>
+        <div class="skills__item">
+          <h3 class="skills__item-title caption">Learning</h3>
+          <ul class="skills__list">
+            <li class="skills__item-text text">Nest.js</li>
+            <li class="skills__item-text text">Next.js</li>
+          </ul>
+        </div>
+        <div class="skills__item">
+          <h3 class="skills__item-title caption">Previously worked with</h3>
+          <ul class="skills__list">
+            <li class="skills__item-text text">Python</li>
+            <li class="skills__item-text text">VS Code</li>
+            <li class="skills__item-text text">Atom</li>
+            <li class="skills__item-text text">Docker</li>
+          </ul>
+        </div>
+        <div class="skills__item">
+          <h3 class="skills__item-title caption">Human languages</h3>
+          <ul class="skills__list">
+            <li class="skills__item-text text">Russian - Native</li>
+            <li class="skills__item-text text">English&nbsp;-&nbsp;B1/B2</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects__title subtitle">Frontend Projects</h2>
+      <div class="projects__wrapper">
+        <div class="projects__item">
+          <h3 class="projects__item-title caption">News Explorer</h3>
+          <a class="projects__link" href="https://github.com/kirpinev/news-explorer" target="_blank">
+            <figure class="projects__figure">
+              <img class="projects__item-image" src="./images/explorer.png" alt="News Explorer" width="320"
+                   height="150">
+              <figcaption class="projects__figcaption">News Explorer</figcaption>
+            </figure>
+          </a>
+          <p class="projects__item-text text">
+            News Explorer is a reliable and fast service that provides a convenient search and saving news you like on
+            your personal page. It will not suffer from DDoS, XSS, CSRF and other attacks.</p>
+          <p class="projects__item-text text"><b>Technologies: </b>HTML, CSS, JS(ES6), Webpack, BEM, API</p>
+        </div>
+        <div class="projects__item">
+          <h3 class="projects__item-title caption">Mesto</h3>
+          <a class="projects__link" href="https://app-mesto.herokuapp.com/" target="_blank">
+            <figure class="projects__figure">
+              <img class="projects__item-image" src="./images/mesto.png" alt="Mesto Russia">
+              <figcaption class="projects__figcaption">Mesto Russia</figcaption>
+            </figure>
+          </a>
+          <p class="projects__item-text text">A service where people share photos of interesting places.</p>
+          <p class="projects__item-text text"><b>Technologies: </b>React.js, Redux, Redux&nbsp;-&nbsp;Form, Redux&nbsp;-&nbsp;Thunk,
+            Typescript, Docker, Heroku</p>
+        </div>
+        <div class="projects__item">
+          <h3 class="projects__item-title caption">Traveling around Russia</h3>
+          <a class="projects__link" href="https://travel-around-russia-dun.vercel.app/" target="_blank">
+            <figure class="projects__figure">
+              <img class="projects__item-image" src="./images/travel.jpg" alt="Traveling around Russia">
+              <figcaption class="projects__figcaption">Traveling around Russia</figcaption>
+            </figure>
+          </a>
+          <p class="projects__item-text text">Adaptive landing page about traveling in Russia.</p>
+          <p class="projects__item-text text"><b>Technologies: </b>TypeScript, HTML, CSS, React.js, Next.js, Flexbox,
+            Grid</p>
+        </div>
+        <div class="projects__item">
+          <h3 class="projects__item-title caption">How to learn</h3>
+          <a class="projects__link" href="https://how-to-learn-pi.vercel.app/" target="_blank">
+            <figure class="projects__figure">
+              <img class="projects__item-image" src="./images/learn.png" alt="How to learn">
+              <figcaption class="projects__figcaption">How to learn</figcaption>
+            </figure>
+          </a>
+          <p class="projects__item-text text">Landing page with a set of rules on how to learn more effectively.</p>
+          <p class="projects__item-text text"><b>Technologies: </b>TypeScript, Styled-Components, React.js, Next.js,
+            Vercel</p>
+        </div>
+        <div class="projects__item">
+          <h3 class="projects__item-title caption">GOTY</h3>
+          <a class="projects__link" href="https://github.com/yandex-course-amsterdam/goty" target="_blank">
+            <figure class="projects__figure">
+              <img class="projects__item-image" src="./images/goty.gif" alt="GOTY">
+              <figcaption class="projects__figcaption">GOTY</figcaption>
+            </figure>
+          </a>
+          <p class="projects__item-text text">IDLE game.</p>
+          <p class="projects__item-text text"><b>Technologies: </b>TypeScript, CSS Modules, React.js, Redux,
+            Redux-Thunk, Formik, Docker, Webpack</p>
+        </div>
+        <div class="projects__item">
+          <a class="projects__link" href="https://github.com/yandex-course-amsterdam/goty" target="_blank">
+            <h3 class="projects__item-title caption">Chatik</h3>
+            <p class="projects__item-text text">Message application.</p>
+            <p class="projects__item-text text"><b>Technologies: </b>HTML, Stylus, TypeScript, Webpack, BEM, API,
+              Docker, Node.js</p>
+          </a>
+        </div>
+        <div class="projects__item">
+          <a class="projects__link" href="https://github.com/kirpinev/burger" target="_blank">
+            <h3 class="projects__item-title caption">Burger</h3>
+            <p class="projects__item-text text">Application where you can build your dream burger.</p>
+            <p class="projects__item-text text"><b>Technologies: </b>React, Redux, TypeScript, Websocket, CSS-Modules, Redux-thunk, React-DnD</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2 class="projects__title subtitle">Backend Projects</h2>
+      <div class="projects__wrapper">
+        <div class="projects__item">
+          <a class="projects__link" href="https://github.com/kirpinev/api-news-explorer" target="_blank">
+            <h3 class="projects__item-title caption">News Explorer</h3>
+            <p class="projects__item-text text">
+              News Explorer is a reliable and fast service that provides a convenient search and saving news you like on
+              your personal page. It will not suffer from DDoS, XSS, CSRF and other attacks.</p>
+            <p class="projects__item-text text"><b>Technologies: </b>Node.js, Express.js, Nginx, MongoDB</p>
+          </a>
+        </div>
+        <div class="projects__item">
+          <a class="projects__link" href="https://github.com/kirpinev/api-mesto" target="_blank">
+            <h3 class="projects__item-title caption">Mesto</h3>
+            <p class="projects__item-text text">A service where people share photos of interesting places.</p>
+            <p class="projects__item-text text"><b>Technologies: </b>Node.js, Express.js, Nginx, MongoDB</p>
+          </a>
+        </div>
+        <div class="projects__item">
+          <a class="projects__link" href="https://github.com/kirpinev/java-kanban" target="_blank">
+            <h3 class="projects__item-title caption">Kanban</h3>
+            <p class="projects__item-text text">How does a person usually shop? If he needs more than one product, but several, then it is very likely that he will first make a list so as not to forget anything. You can do this anywhere: on a piece of paper, in a note-taking app, or, for example, in a message to yourself in a messenger.</p>
+            <p class="projects__item-text text">Now imagine that this is not a list of products, but full-fledged cases. And not some simple ones like “wash the dishes” or “call grandma”, but complex ones like “organize a big family holiday” or “buy an apartment”. Each of these tasks can be divided into several stages with their own nuances and deadlines. And if not one person, but a whole team works on their implementation, then the organization of the process will become even more difficult. So, this program will help you to do all this tasks.</p>
+            <p class="projects__item-text text"><b>Technologies: </b>Java, JUnit, GSON, RESTful API</p>
+          </a>
+        </div>
+        <div class="projects__item">
+          <a class="projects__link" href="https://github.com/kirpinev/java-filmorate" target="_blank">
+            <h3 class="projects__item-title caption">Filmorate</h3>
+            <p class="projects__item-text text">Imagine that you decide to relax and spend the evening watching a movie.
+              Delicious food is already being prepared, your favorite blanket curled up comfortably on an armchair - and you still haven't chosen what to watch!</p>
+            <p class="projects__item-text text">There are many films - and every year there are more and more.
+              The more of them, the more different estimates.
+              The more ratings, the more difficult it is to make a choice.
+              However, this is not the time to give up! Filmorate is a service that works with movies and user ratings, and returns the top 5 movies recommended for viewing.
+              Now neither you nor your friends will have to think for a long time what to see in the evening.</p>
+            <p class="projects__item-text text"><b>Technologies: </b>Spring Boot, Spring Data (JDBC), H2, JUnit</p>
+          </a>
+        </div>
+        <div class="projects__item">
+          <a class="projects__link" href="https://github.com/kirpinev/java-shareit" target="_blank">
+            <h3 class="projects__item-title caption">ShareIt</h3>
+            <p class="projects__item-text text">ShareIt is a Spring Boot application that gives users, firstly, the ability to tell what things they are ready to share, and secondly, find the right thing and rent it for a while.</p>
+            <p class="projects__item-text text">The service not only allows you to book a thing for certain dates, but also closes access to it for the time of booking from other people.
+              In case the necessary thing is not on the service, users should be able to leave requests.
+              Suddenly, an ancient gramophone, which is strange even to offer for rent, will suddenly be needed for a theatrical production.
+              Upon request, it will be possible to add new things for sharing.</p>
+            <p class="projects__item-text text"><b>Technologies: </b>Spring Boot, Hibernate, Docker, PostgreSQL</p>
+          </a>
+        </div>
+        <div class="projects__item">
+          <a class="projects__link" href="https://github.com/kirpinev/java-explore-with-me" target="_blank">
+            <h3 class="projects__item-title caption">ExploreWithMe</h3>
+            <p class="projects__item-text text">ExploreWithMe is a Spring Boot application that allows users to share information about interesting events and find companions for participation.
+              It helps users efficiently plan their leisure time by providing a platform to organize and participate in various events.</p>
+            <p class="projects__item-text text"><b>Technologies: </b>Spring Boot, Hibernate, Docker, PostgreSQL</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="code-mastery">
+      <h2 class="code-mastery__title subtitle">Code Mastery</h2>
+      <div class="code-mastery__wrapper">
+        <div class="code-mastery__item">
+          <a class="code-mastery__link text" href="https://www.codewars.com/users/kirpinev" target="_blank">Codewars</a>
+        </div>
+        <div class="code-mastery__item">
+          <a class="code-mastery__link text" href="https://hackerrank.com/ikirpinev" target="_blank">HackerRank</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="certifications">
+      <h2 class="certifications__title subtitle">Certifications</h2>
+      <div class="certifications__wrapper">
+        <div class="certifications__item">
+          <h3 class="certifications__item-title caption">FreeCodeCamp</h3>
+          <a class="certifications__link text"
+             href="https://www.freecodecamp.org/certification/fcc99317880-0baa-4b81-ab95-45a27cbd6de7/javascript-algorithms-and-data-structures"
+             target="_blank">JavaScript Algorithms and Data Structures</a>
+          <a class="certifications__link text"
+             href="https://www.freecodecamp.org/certification/fcc99317880-0baa-4b81-ab95-45a27cbd6de7/responsive-web-design"
+             target="_blank">Responsive Web Design</a>
+        </div>
+        <div class="certifications__item">
+          <h3 class="certifications__item-title caption">HackerRank</h3>
+          <a class="certifications__link text" href="https://www.hackerrank.com/certificates/2456dcdd3c37"
+             target="_blank">JavaScript</a>
+          <a class="certifications__link text" href="https://www.hackerrank.com/certificates/7ed2357bc15a"
+             target="_blank">Problem Solving</a>
+        </div>
+        <div class="certifications__item">
+          <h3 class="certifications__item-title caption">Udemy</h3>
+          <a class="certifications__link text" href="./images/Clean-code.jpg"
+             target="_blank">Clean Code</a>
+        </div>
+        <div class="certifications__item">
+          <h3 class="certifications__item-title caption">Yandex.Praktikum</h3>
+          <a class="certifications__link text" href="./files/Кирпинев%20Игорь%20Валерьевич_20232JD00299.pdf"
+             target="_blank">Java Backend Developer</a>
+          <a class="certifications__link text" href="./files/_6209560397790478560_20222re00023.pdf"
+             target="_blank">React Developer</a>
+          <a class="certifications__link text" href="./files/8716d36d-ea56-432c-b834-c7fda0538d7e.pdf"
+             target="_blank">Frontend Developer</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements">
+      <h2 class="achievements__title subtitle">Achievements</h2>
+      <div class="achievements__wrapper">
+        <div class="achievements__item">
+          <h3 class="achievements__item-title caption">Arctic Code Vault Contributor</h3>
+          <p class="achievements__item-text text">Contributed code to&nbsp;several repositories in&nbsp;the 2020 GitHub
+            Archive Program</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__link-group">
+      <a class="footer__link" href="https://github.com/kirpinev" target="_blank" title="My GitHub"><img
+        src="./images/github.svg" alt="GitHub Logo" width="25" height="25"></a>
+      <a class="footer__link" href="https://rs.school/js-stage0/" target="RS School" title="RS School"><img
+        src="./images/rs_school_js.svg" alt="RS School Logo" width="50" height="25"></a>
+    </div>
+    <time class="footer__text text" datetime="2021">2023</time>
+    <a class="text" href="#top">back to top</a>
+  </footer>
+</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="./utils/smooth-scroll.js"></script>
+<script src="./components/burger.js"></script>
+</body>
 </html>

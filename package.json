@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "htmlhint index.html"
+  },
+  "devDependencies": {
+    "stylelint-config-htmlacademy": "^0.1.10"
+  },
+  "dependencies": {
+    "htmlhint": "^1.1.4"
+  }
+}

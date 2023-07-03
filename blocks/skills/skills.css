@@ -1,0 +1,10 @@
+@import url("__title/skills__title.css");
+@import url("__item/skills__item.css");
+@import url("__wrapper/skills__wrapper.css");
+@import url("__item-title/skills__item-title.css");
+@import url("__item-text/skills__item-text.css");
+@import url("__list/skills__list.css");
+
+.skills {
+  margin-bottom: 90px;
+}

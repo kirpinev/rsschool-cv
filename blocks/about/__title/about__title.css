@@ -1,0 +1,13 @@
+.about__title {
+  width: 100%;
+  margin: 0 0 15px;
+  max-width: 420px;
+
+  font: normal bold 36px/50px "Source Sans Pro", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .about__title {
+    text-align: center;
+  }
+}

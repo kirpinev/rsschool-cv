@@ -1,0 +1,12 @@
+.certifications__link {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.certifications__link:last-of-type {
+  margin-bottom: 0;
+}
+
+.certifications__link:hover {
+  opacity: 0.7;
+}

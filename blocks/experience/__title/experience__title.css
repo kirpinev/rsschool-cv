@@ -1,0 +1,12 @@
+.experience__title {
+  margin-bottom: 40px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .experience__title {
+    text-align: center;
+  }
+}
