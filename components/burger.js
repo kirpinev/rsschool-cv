@@ -16,6 +16,7 @@ navigation.style.width = "100%";
 navigation.style.display = "flex";
 navigation.style.justifyContent = "center";
 navigation.style.backgroundColor = "rgba(255,255,255, 0.8)";
+navigation.style.zIndex = "100";
 
 list.style.flexDirection = "column";
 list.style.alignItems = "center";
