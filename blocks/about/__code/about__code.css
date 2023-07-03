@@ -1,0 +1,9 @@
+.about__code {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .about__code code {
+    font-size: 9px;
+  }
+}

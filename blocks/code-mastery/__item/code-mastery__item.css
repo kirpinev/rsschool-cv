@@ -1,0 +1,4 @@
+.code-mastery__item {
+  display: flex;
+  flex-direction: column;
+}

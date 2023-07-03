@@ -1,0 +1,29 @@
+@import url("__title/experience__title.css");
+@import url("__job/experience__job.css");
+@import url("__date/experience__date.css");
+@import url("__spec-wrapper/experience__spec-wrapper.css");
+@import url("__spec/experience__spec.css");
+@import url("__company-wrapper/experience__company-wrapper.css");
+@import url("__company-logo/experience__company-logo.css");
+@import url("__company-name/experience__company-name.css");
+@import url("__about-company/experience__about-company.css");
+@import url("__responsibilities/experience__responsibilities.css");
+
+.experience {
+  width: 100%;
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 425px) {
+  .experience {
+    max-width: 100%;
+  }
+}

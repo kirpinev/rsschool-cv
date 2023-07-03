@@ -1,0 +1,9 @@
+.about__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.about__item:nth-of-type(2) {
+  margin-left: -5px;
+}

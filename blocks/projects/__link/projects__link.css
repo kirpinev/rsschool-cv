@@ -1,0 +1,7 @@
+.projects__link {
+  text-decoration: none;
+}
+
+.projects__link:hover {
+  opacity: 0.7;
+}

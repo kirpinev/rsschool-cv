@@ -1,0 +1,11 @@
+.about__contacts {
+  margin-top: 82px;
+  margin-right: 67px;
+}
+
+@media (max-width: 768px) {
+  .about__contacts {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}

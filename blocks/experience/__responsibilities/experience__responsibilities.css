@@ -1,0 +1,9 @@
+.experience__responsibilities {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .experience__responsibilities {
+    text-align: center;
+  }
+}

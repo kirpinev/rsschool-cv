@@ -1,0 +1,9 @@
+@import url("__title/achievements__title.css");
+@import url("__wrapper/achievements__wrapper.css");
+@import url("__item/achievements__item.css");
+@import url("__item-title/achievements__item-title.css");
+@import url("__item-text/achievements__item-text.css");
+
+.achievements {
+  margin-bottom: 180px;
+}

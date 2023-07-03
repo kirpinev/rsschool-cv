@@ -1,0 +1,8 @@
+.experience__company-logo {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px 0 0;
+
+  object-fit: cover;
+  border-radius: 100%;
+}
